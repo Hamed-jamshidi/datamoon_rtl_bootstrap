@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <title>License Generator</title>
+    <link rel="stylesheet" href="css/bootstrap.fa.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/filter.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- end of activities - quickpost  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>   
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js'></script> -->
+
+    
+    
+    <script>
+
+      $(function () {
+        const url = 'http://' + window.location.host
+        console.log('url in index ', url)
+        if (window.location.href === url + '/khodnegar')
+          $('#khodnegar').addClass('current')
+        else if (window.location.href === url + '/rokhnegar')
+          $('#rokhnegar').addClass('current')
+        else if (window.location.href === url + '/profile')
+          $('#profile').addClass('current')
+        else $('#dashboard').addClass('current')
+
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+      });
+
+    </script>
+
+  </body>
+</html>
+

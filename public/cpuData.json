@@ -1,0 +1,16 @@
+{
+  "cpuData": [
+    {
+      "platform": "core i 3",
+      "power": 30
+    },
+    {
+      "platform": "core i 5",
+      "power": 60
+    },
+    {
+      "platform": "core i 9",
+      "power": 90
+    }
+  ]
+}

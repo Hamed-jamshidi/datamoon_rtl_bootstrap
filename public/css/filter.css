@@ -1,0 +1,60 @@
+
+
+.filter input {
+    outline: none;
+    border: none;
+    width: auto;
+  }
+  .filter-position{
+      
+  }
+  .filter .multi-selector {
+    width:auto;
+
+  }
+  .filter .select-field {
+    border: 1px solid black;
+    width: auto;
+  }
+  .filter .task {
+    /* display: flex;
+  flex-wrap: wrap; */
+    padding-left: 0;
+  }
+  .filter .list {
+    color:black;
+    box-shadow: 0 30px 60px rgb(0, 0, 0, 0.2);
+    display: none;
+
+  }
+  .filter .select-field,
+  .filter .task,
+  .filter .list {
+    width: 100%;
+    background-color: white;
+
+    padding: 0.3rem;
+  }
+
+  .filter .down-arrow {
+    font-size: 1.2 rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2 linear;
+  }
+
+  /* .filter .task span {
+    flex:50%;
+    font-size: 0.6rem;
+    padding-top: 6px;
+  } */
+  .filter .task:hover {
+    background-color: aliceblue;
+  }
+  .filter .show {
+    display: block;
+    
+  }
+  .filter .rotate180 {
+    transform: rotate(60deg);
+  }

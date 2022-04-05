@@ -1,0 +1,51 @@
+{
+"url":"/license/api/v1/",
+"Credit_type":{
+                "1" : "یک هفته",
+                "2" : "دو هفته",
+                "3" : "یک ماه",
+                "4" : "دایمی"},
+    
+ "Product_type":{
+                "1": "خودنگار",
+                "2": "رخ نگار"},
+
+ "CreditData":[
+                {
+                "id": 0,
+                "credit_count":"نامعتبر",
+                "credit_type": 1,
+                "product_type": [1 , 2],
+                "maximum_camera_count": "نامعتبر",
+                "expire_date": "نامعتبر"
+                
+                },
+                {
+                    "id":1 ,
+                    "credit_count":"نامعتبر",
+                    "credit_type": 2,
+                    "product_type": [1 , 2],
+                    "maximum_camera_count": "نامعتبر",
+                    "expire_date":"نامعتبر"
+                    
+                    },
+                    {
+                        "id": 2,
+                        "credit_count":"نامعتبر",
+                        "credit_type": 3,
+                        "product_type": [1 , 2],
+                        "maximum_camera_count":"نامعتبر",
+                        "expire_date":"نامعتبر"
+                        
+                        },
+                        {
+                            "id": 3,
+                            "credit_count":"نامعتبر",
+                            "credit_type": 4,
+                            "product_type": [1 , 2],
+                            "maximum_camera_count":"نامعتبر",
+                            "expire_date":"نامعتبر"
+                            
+                            }
+                 ]
+                }
